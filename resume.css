@@ -67,7 +67,13 @@ h3>span.unbold {
     font-weight: normal;
 }
 
-@media screen and (max-width: 700px){
+@media screen and (max-width: 950px){
+    sub.GPA {
+        padding-left: 0rem;
+        top: 0.3rem;
+        left: -10.3rem;
+    }
+
     aside {
         padding-top: 2.5rem;
         float: none;
