@@ -69,9 +69,7 @@ h3>span.unbold {
 
 @media screen and (max-width: 1200px){
     sub.GPA {
-        padding-left: 0rem;
-        top: 0.3rem;
-        left: -10.3rem;
+        visibility: hidden;
     }
 
     aside {
