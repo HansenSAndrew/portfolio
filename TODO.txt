@@ -1,4 +1,6 @@
- Need to create a index.html. This should be the about page.
+ * index.html
+    - Add Navigation
+    - Add Projects (I would use JavaScript to make 'nodes')
 
- Need to make portfolio.html. This will be much later in
- the class.
+ * resume.html
+    - Add Navigation

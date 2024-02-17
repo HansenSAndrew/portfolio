@@ -67,7 +67,7 @@ h3>span.unbold {
     font-weight: normal;
 }
 
-@media screen and (max-width: 1200px){
+@media screen and (max-width: 1200px) {
     sub.GPA {
         visibility: hidden;
     }
