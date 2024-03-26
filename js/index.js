@@ -1,11 +1,14 @@
 import data from './portfolio.json' assert {type: 'json'}
 
-const body = document.body;
+// const body = document.body;
+const body = document.body
 
 // Creates Div for the 'cards'
 const div = document.createElement('div');
 div.className = "Projects";
-body.append(div);
+
+body.appendChild(div);
+
 
 // Loops through portfolio.json and creates 'Cards.'
 for (let i in data.projects) {
@@ -18,14 +21,15 @@ for (let i in data.projects) {
     card.className = "Card";
     card.innerHTML = `
     <img src=${picture} alt="Picture from Project">
-    <h1>
-        <a href=${repository}>
-            ${name}
-        </a>
-    </h1>
-    <p>${description}</p>
+    <span>
+        <h1>
+            <a href=${repository} target="_blank">
+                ${name}
+            </a>
+        </h1>
+        <p>${description}</p>
+    </span>
     `;
-
 
     div.appendChild(card);
 }

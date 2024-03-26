@@ -1,6 +1,2 @@
- * index.html
-    - Add Navigation
-    - Add Projects (I would use JavaScript to make 'nodes')
-
- * resume.html
-    - Add Navigation
+ * Fix Mobile View
+ * Find a better favicon

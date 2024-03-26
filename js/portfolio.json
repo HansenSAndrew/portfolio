@@ -1,0 +1,28 @@
+{
+    "projects": [
+        {
+            "name": "VR Western Shootout",
+            "description": "A Virtual Reality Game where one could live their old western fantasies! This was my first video game produced in the Unity engine using C# Scripting.",
+            "repository": "https://github.com/Zach-Kiser/Western-Shootout-Game",
+            "picture": "assets/westernshootout.JPG"
+        },
+        {
+            "name": "Based on Books",
+            "description": "A web application that uses 2 different databases to search if a piece of media is based on books. This is my first project that uses an API to manipulate a JSON.",
+            "repository": "https://github.com/HansenSAndrew/Project-3",
+            "picture": "assets/basedonbooks.JPG"
+        },
+        {
+            "name": "Y86 Simulator",
+            "description": "A system's project this is used to simulate a Y86 instruction set. Unfortunately, I cannot share this repository.",
+            "repository": "https://w3.cs.jmu.edu/lam2mo/cs261_2018_08/files/y86-isa.pdf",
+            "picture": "assets/y86.JPG"
+        },
+        {
+            "name": "Solar",
+            "description": "A dummy website created by myself and a colleague. Creating this website taught me HTML, CSS, and Javascript; assets that have helped me create this website.",
+            "repository": "https://github.com/TheSalmanK/343-s23-p1",
+            "picture": "assets/solar.JPG"
+        }
+    ]
+}

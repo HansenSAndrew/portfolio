@@ -1,2 +1,2 @@
 # Andrew's Portfolio 
-This is where I will list my about, resume, and projects.
+I created this static website to list all of my notable projects.
