@@ -11,13 +11,13 @@ body.appendChild(div);
 
 
 // Loops through portfolio.json and creates 'Cards.'
-for (let i in data.projects) {
-    let name = data.projects[i].name;
-    let description = data.projects[i].description;
-    let repository = data.projects[i].repository;
-    let picture = data.projects[i].picture;
+for (var i in data.projects) {
+    var name = data.projects[i].name;
+    var description = data.projects[i].description;
+    var repository = data.projects[i].repository;
+    var picture = data.projects[i].picture;
 
-    let card = document.createElement('div');
+    var card = document.createElement('div');
     card.className = "Card";
     card.innerHTML = `
     <img src=${picture} alt="Picture from Project">
