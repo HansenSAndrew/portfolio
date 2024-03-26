@@ -1,1 +1,2 @@
+ * Fix High CPU Usage from Background Animation on index.html
  * Find a better favicon

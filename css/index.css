@@ -10,13 +10,15 @@ body {
 
 .background {
   background: linear-gradient(45deg, #DACCE6, #F4EFE1);
-  background-size: 600%;
-  animation: gradient 5s ease-in-out infinite;
+  background-size: 400%;
+  animation: gradient 10s ease-in-out infinite;
   position: fixed;
-  height: 200%;
+  height: 100%;
   width: 100%;
   top: 0;
   bottom: 0;
+  left: 0;
+  right: 0;
   z-index: -1;
 }
 
