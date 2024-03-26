@@ -1,0 +1,16 @@
+{
+    "projects": [
+        {
+            "name":"VR Western Shootout",
+            "description":"A Virtual Reality Game where one could live their old western fantasies! This was my first video game produced in the Unity engine using C# Scripting.",
+            "repository":"https://github.com/Zach-Kiser/Western-Shootout-Game",
+            "picture":"assets/westernshootout.JPG"
+        },
+        {
+            "name":"Based on Books",
+            "description":"A web application that uses 2 different databases to search if a piece of media is based on books. This is my first project that uses an API to manipulate a JSON.",
+            "repository":"https://github.com/HansenSAndrew/Project-3",
+            "picture":"assets/basedonbooks.JPG"
+        }
+    ]
+}
