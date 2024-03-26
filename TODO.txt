@@ -1,2 +1,1 @@
- * Fix Mobile View
  * Find a better favicon

@@ -151,7 +151,7 @@ div.Card {
   }
 }
 
-@media screen and (max-width: 900px) {
+@media screen and (max-width: 950px) {
   div.Card {
     span {
       height: 20rem;
