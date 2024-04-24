@@ -38,13 +38,17 @@ body {
 }
 
 div.centerpiece {
+  z-index: 7;
+  position: relative;
+
+
   margin: auto;
   margin-top: 5rem;
 
   width: 50%;
   padding: 2rem;
   border: 2px solid;
-  background-color: rgba(255, 255, 255, 0.185);
+  background-color: #e7dde3;
   border-radius: 10px;
 }
 
@@ -53,8 +57,14 @@ div.centerpiece>h1 {
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
+.section{
+  font-size: xxx-large;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
 div.centerpiece>h2 {
   font-size: xx-large;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
 div.centerpiece>p {
@@ -80,11 +90,13 @@ span.JMU {
 }
 
 div.About {
+  z-index: 7;
+  position: relative;
   margin: auto;
   width: 50%;
   padding: 2rem;
   border: 2px solid;
-  background-color: rgba(255, 255, 255, 0.185);
+  background-color: #e7dde3;
   border-radius: 10px;
 
   p {
@@ -106,13 +118,14 @@ div.Projects {
 
 div.Card {
   display: inline-block;
+  z-index: 3;
 
   width: 30%;
   margin: 2rem;
   padding: 2rem;
 
   border: 2px solid;
-  background-color: rgba(255, 255, 255, 0.185);
+  background-color: #e7dde3;
   border-radius: 10px;
 
   span {
@@ -141,6 +154,10 @@ div.Card {
   p {
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-size: x-large;
+  }
+
+  h1 {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   }
 }
 
