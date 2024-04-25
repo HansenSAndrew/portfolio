@@ -2,7 +2,7 @@
     "projects": [
         {
             "name": "VR Western Shootout",
-            "description": "A Virtual Reality Game where one could live their old western fantasies! This was my first video game produced in the Unity engine using C# Scripting.",
+            "description": "A Virtual Reality Game where one could live their old western fantasies! This was my first game produced in the Unity Engine.",
             "repository": "https://github.com/Zach-Kiser/Western-Shootout-Game",
             "picture": "assets/westernshootout.JPG"
         },
@@ -20,7 +20,7 @@
         },
         {
             "name": "Solar",
-            "description": "A dummy website created by myself and a colleague. Creating this website taught me HTML, CSS, and Javascript; assets that have helped me create this website.",
+            "description": "A static website created by a colleague and I. Creating this website taught me HTML, CSS, and Javascript; assets that have helped me create this website.",
             "repository": "https://github.com/TheSalmanK/343-s23-p1",
             "picture": "assets/solar.JPG"
         }

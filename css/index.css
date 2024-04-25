@@ -60,6 +60,8 @@ div.centerpiece>h1 {
 .section{
   font-size: xxx-large;
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  z-index: 20;
+  position: relative;
 }
 
 div.centerpiece>h2 {
@@ -165,7 +167,7 @@ div.Card {
 @media screen and (max-width: 1200px) {
   div.Card {
     span {
-      height: 15rem;
+      height: 20rem;
     }
   }
 }
@@ -173,13 +175,40 @@ div.Card {
 @media screen and (max-width: 950px) {
   div.Card {
     span {
+      height: 25rem;
+    }
+  }
+}
+
+@media screen and (max-width: 810px) {
+  div.Card {
+    width: 50%;
+    span {
+      height: 15rem;
+    }
+  }
+}
+
+@media screen and (max-width: 710px) {
+  div.Card {
+    span {
       height: 20rem;
     }
   }
 }
 
-@media screen and (max-width: 700px) {
+@media screen and (max-width: 550px) {
   div.Card {
-    width: 50%
+    span {
+      height: 25rem;
+    }
+  }
+}
+
+@media screen and (max-width: 500px) {
+  div.Card {
+    span {
+      overflow-y: scroll;
+    }
   }
 }
