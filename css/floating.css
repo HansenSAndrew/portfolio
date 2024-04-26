@@ -6,10 +6,12 @@
 
 
 .svg {
-  stroke: blueviolet;
+  /* stroke: #e7dde3; */
+  stroke: #885B7D;
   position: absolute;
   bottom: -100%;
   transform-style: preserve-3d;
+  fill: none;
 }
 
 .svg:nth-child(1) {
@@ -18,7 +20,6 @@
   animation-delay: -2s;
   transform: scale(0.7) rotate(342deg);
   z-index: -1;
-  filter: blur(2px);
 }
 
 @keyframes raise1 {
@@ -34,7 +35,6 @@
   animation-delay: -2s;
   transform: scale(1) rotate(355deg);
   z-index: -1;
-  filter: blur(2px);
 }
 
 @keyframes raise2 {
@@ -50,7 +50,6 @@
   animation-delay: 0s;
   transform: scale(1) rotate(172deg);
   z-index: -1;
-  filter: blur(2px);
 }
 
 @keyframes raise3 {
@@ -66,7 +65,6 @@
   animation-delay: 1s;
   transform: scale(2) rotate(185deg);
   z-index: -1;
-  filter: blur(2px);
 }
 
 @keyframes raise4 {
@@ -82,7 +80,6 @@
   animation-delay: 0s;
   transform: scale(0.9) rotate(335deg);
   z-index: -1;
-  filter: blur(2px);
 }
 
 @keyframes raise5 {
@@ -98,7 +95,6 @@
   animation-delay: -2s;
   transform: scale(1.2) rotate(152deg);
   z-index: -1;
-  filter: blur(2px);
 }
 
 @keyframes raise6 {
@@ -114,7 +110,6 @@
   animation-delay: -3s;
   transform: scale(1.5) rotate(29deg);
   z-index: 0;
-  filter: blur(2px);
 }
 
 @keyframes raise7 {
@@ -130,7 +125,6 @@
   animation-delay: -3s;
   transform: scale(1.8) rotate(322deg);
   z-index: 1;
-  filter: blur(2px);
 }
 
 @keyframes raise8 {
@@ -146,7 +140,6 @@
   animation-delay: -1s;
   transform: scale(2.1) rotate(185deg);
   z-index: 2;
-  filter: blur(2px);
 }
 
 @keyframes raise9 {
@@ -162,7 +155,6 @@
   animation-delay: -1s;
   transform: scale(2.4) rotate(83deg);
   z-index: 3;
-  filter: blur(2px);
 }
 
 @keyframes raise10 {

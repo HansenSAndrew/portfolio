@@ -9,7 +9,9 @@ body {
 }
 
 .background {
-  background: linear-gradient(45deg, #DACCE6, #F4EFE1);
+  /* background: linear-gradient(45deg, #DACCE6, #F4EFE1); */
+  background: linear-gradient(45deg, #450084, #CBB677);
+
   background-size: 400%;
   animation: gradient 10s ease-in-out infinite;
   position: fixed;
