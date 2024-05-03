@@ -164,7 +164,7 @@
   }
 }
 
-@media screen and (max-width: 800px) {
+@media screen and (max-width: 900px) {
   .svg:nth-child(1) {
     left: 45%
   }
