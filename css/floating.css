@@ -166,11 +166,11 @@
 
 @media screen and (max-width: 1000px) {
   .svg:nth-child(1) {
-    left: 45%
+    left: 65%
   }
 
   .svg:nth-child(2) {
-    left: 35%
+    left: 55%
   }
 
   .svg:nth-child(3) {
