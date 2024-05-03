@@ -9,7 +9,7 @@
   /* stroke: #e7dde3; */
   stroke: #885B7D;
   position: absolute;
-  bottom: -100%;
+  bottom: -150%;
   transform-style: preserve-3d;
   fill: none;
 }
