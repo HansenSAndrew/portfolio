@@ -163,3 +163,25 @@
     transform: scale(2.4) rotate(135deg);
   }
 }
+
+@media screen and (max-width: 800px) {
+  .svg:nth-child(1) {
+    left: 45%
+  }
+
+  .svg:nth-child(2) {
+    left: 35%
+  }
+
+  .svg:nth-child(3) {
+    left: 45%
+  }
+
+  .svg:nth-child(6) {
+    left: 45%
+  }
+
+  .svg:nth-child(9) {
+    left: 18%
+  }
+}
