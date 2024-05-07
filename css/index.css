@@ -127,6 +127,11 @@ div.Link {
     padding: 2rem;
     width: 15rem;
   }
+
+  img:hover {
+    filter: invert();
+    background: linear-gradient(45deg, #BAFF7C, #344989);
+  }
 }
 
 
