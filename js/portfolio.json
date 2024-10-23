@@ -1,26 +1,42 @@
 {
     "projects": [
         {
+            "name": "Spotitrack",
+            "what": "A web application this is used to track previous versions of playlists. One could revert a playlist from a previous version.",
+            "sowhat": "My first project with Django, Postgres, and React. We created a dynamic website that had an intricate backend with an elegant frontend.",
+            "nowwhat": "These tools are most haves for web development. Using a SQL language, like Postgres, is incredibly useful for a dynamic website.",
+            "repository": "https://github.com/347S24/347-final-project-team-23",
+            "picture": "assets/spotitrack.png"
+        },
+        {
             "name": "VR Western Shootout",
-            "description": "A Virtual Reality Game where one could live their old western fantasies! This was my first game produced in the Unity Engine.",
+            "what": "Created in the Unity Engine, this is was my first completed video game.",
+            "sowhat": "This was my first time learning C#. I learned how to work in the Unity Engine with colleagues. We used git for version control with an agile workflow.",
+            "nowwhat": "I have a love for working in the Unity Engine. I am currently working on another video game!",
             "repository": "https://github.com/Zach-Kiser/Western-Shootout-Game",
-            "picture": "assets/westernshootout.JPG"
+            "picture": "assets/cowboy.gif"
         },
         {
             "name": "Based on Books",
-            "description": "A web application that uses 2 different databases to search if a piece of media is based on books. This is my first project that uses an API to manipulate a JSON.",
+            "what": "A web application that returns media that is based off books.",
+            "sowhat": "I learned how to access and use APIs and Databases. This was also an introduction to Javascript. As much as I hate Javascript, it is a useful tool for static webpages.",
+            "nowwhat": "With these skills, I am more efficent at creating webpages. These assets have helped me create this webpage!",
             "repository": "https://github.com/HansenSAndrew/Project-3",
             "picture": "assets/basedonbooks.JPG"
         },
         {
             "name": "Y86 Simulator",
-            "description": "A system's project this is used to simulate a Y86 instruction set. Unfortunately, I cannot share this repository.",
+            "what": "A systems project, this is used to simulate a Y86 instruction set. Unfortunately, I cannot share this repository.",
+            "sowhat": "This project gave me an appreciation for C and Assembly. It also gave me a deeper understanding on how computer hardware manipulates data.",
+            "nowwhat": "Learning a CPU Instruction Set, even if it is a \"toy\" instruction set, is beneficiary to my career.",
             "repository": "https://w3.cs.jmu.edu/lam2mo/cs261_2018_08/files/y86-isa.pdf",
             "picture": "assets/y86.JPG"
         },
         {
             "name": "Solar",
-            "description": "A static website created by a colleague and I. Creating this website taught me HTML, CSS, and Javascript; assets that have helped me create this website.",
+            "what": "A static, \"dummy\" website created by a colleague and I. It does not have any purpose but instruction.",
+            "sowhat": "I have learned the basics of web development. I learned HTML and CSS, the bread and butter of web development.",
+            "nowwhat": "I use HTML and CSS almost every project. Obvioulsy this page uses it, but I use these skills with every webpage.",
             "repository": "https://github.com/TheSalmanK/343-s23-p1",
             "picture": "assets/solar.JPG"
         }

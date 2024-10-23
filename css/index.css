@@ -47,7 +47,7 @@ div.centerpiece {
   margin: auto;
   margin-top: 5rem;
 
-  width: 50%;
+  width: 60%;
   padding: 2rem;
   border: 2px solid;
   background-color: #e7dde3;
@@ -93,7 +93,7 @@ div.About {
   z-index: 7;
   position: relative;
   margin: auto;
-  width: 50%;
+  width: 60%;
   padding: 2rem;
   border: 2px solid;
   background-color: #e7dde3;
@@ -148,9 +148,10 @@ div.Card {
   display: inline-block;
   z-index: 3;
 
-  width: 30%;
-  margin: 2rem;
+  width: 40%;
+  margin: 3rem;
   padding: 2rem;
+  padding-bottom: 20rem;
 
   border: 2px solid;
   background-color: #e7dde3;
@@ -162,10 +163,18 @@ div.Card {
     height: 12rem;
   }
 
+  div.what {
+    font-weight: bold;
+    font-size: x-large;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    line-height: 1.5;
+    margin-bottom: -1.5rem;
+  }
+
   img {
     position: static;
     width: 100%;
-    height: 20rem;
+    height: 25rem;
     border: 1px solid;
     border-radius: 10px;
   }
@@ -213,6 +222,7 @@ div.Card {
     span {
       height: 15rem;
     }
+    padding-bottom: 30rem;
   }
 }
 
@@ -229,6 +239,7 @@ div.Card {
     span {
       height: 25rem;
     }
+    padding-bottom: 35rem;
   }
 
   div.Link {
@@ -243,6 +254,7 @@ div.Card {
     span {
       overflow-y: scroll;
     }
+    padding-bottom: 5rem;
   }
 
 }
