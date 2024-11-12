@@ -19,9 +19,7 @@ body.appendChild(div);
 // Loops through portfolio.json and creates 'Cards.'
 for (var i in data.projects) {
   var name = data.projects[i].name;
-  var what = data.projects[i].what;
-  var sowhat = data.projects[i].sowhat;
-  var nowwhat = data.projects[i].nowwhat;
+  var description = data.projects[i].description;
   var repository = data.projects[i].repository;
   var picture = data.projects[i].picture;
   var card = document.createElement('div');
@@ -34,12 +32,7 @@ for (var i in data.projects) {
                 ${name}
             </a>
         </h1>
-        <div class="what"> What?</div>
-        <p>${what}</p>
-        <div class="what"> So What?</div>
-        <p>${sowhat}</p>
-        <div class="what"> Now What?</div>
-        <p>${nowwhat}</p>
+        <p>${description}</p>
     </span>
     `;
   div.appendChild(card);
