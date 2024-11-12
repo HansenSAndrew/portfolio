@@ -1,1 +1,1 @@
- * Find a better favicon
+ * Add 5 more artifacts
