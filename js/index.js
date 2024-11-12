@@ -11,6 +11,12 @@ const data = await (typeof process === "object" &&
 
 const body = document.body;
 
+// Creates section header "Projects"
+var projectSection = document.createElement('h1');
+projectSection.className = "section";
+projectSection.innerHTML = "Projects";
+body.appendChild(projectSection);
+
 // Creates Div for the 'cards'
 const div = document.createElement('div');
 div.className = "Projects";
@@ -24,10 +30,11 @@ for (var i in data.projects) {
   var nowwhat = data.projects[i].nowwhat;
   var repository = data.projects[i].repository;
   var picture = data.projects[i].picture;
+  var alt = data.projects[i].alt;
   var card = document.createElement('div');
   card.className = "Card";
   card.innerHTML = `
-    <img src=${picture} alt="Picture from Project">
+    <img src=${picture} alt="${alt}">
     <span>
         <h1>
             <a href=${repository} target="_blank">
@@ -44,6 +51,12 @@ for (var i in data.projects) {
     `;
   div.appendChild(card);
 }
+
+// 
+// var workSection = document.createElement('h1');
+// workSection.className = "section";
+// workSection.innerHTML = "Work";
+// body.appendChild(workSection);
 
 // Adding "Floating French Fries"
 var frenchFries = document.createElement('div');

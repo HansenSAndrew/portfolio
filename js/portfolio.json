@@ -6,7 +6,8 @@
             "sowhat": "My first project with Django, Postgres, and React. We created a dynamic website that had an intricate backend with an elegant frontend.",
             "nowwhat": "These tools are most haves for web development. Using a SQL language, like Postgres, is incredibly useful for a dynamic website.",
             "repository": "https://github.com/347S24/347-final-project-team-23",
-            "picture": "assets/spotitrack.png"
+            "picture": "assets/spotitrack.png",
+            "alt": "Spotitrack's user interface."
         },
         {
             "name": "VR Western Shootout",
@@ -14,7 +15,8 @@
             "sowhat": "This was my first time learning C#. I learned how to work in the Unity Engine with colleagues. We used git for version control with an agile workflow.",
             "nowwhat": "I have a love for working in the Unity Engine. I am currently working on another video game!",
             "repository": "https://github.com/Zach-Kiser/Western-Shootout-Game",
-            "picture": "assets/cowboy.gif"
+            "picture": "assets/cowboy.gif",
+            "alt": "A gif of the gameplay of VR Western Shootout."
         },
         {
             "name": "Based on Books",
@@ -22,7 +24,8 @@
             "sowhat": "I learned how to access and use APIs and Databases. This was also an introduction to Javascript. As much as I hate Javascript, it is a useful tool for static webpages.",
             "nowwhat": "With these skills, I am more efficent at creating webpages. These assets have helped me create this webpage!",
             "repository": "https://github.com/HansenSAndrew/Project-3",
-            "picture": "assets/basedonbooks.JPG"
+            "picture": "assets/basedonbooks.JPG",
+            "alt": "Based on Books' search bar and filter user interface."
         },
         {
             "name": "Y86 Simulator",
@@ -30,7 +33,8 @@
             "sowhat": "This project gave me an appreciation for C and Assembly. It also gave me a deeper understanding on how computer hardware manipulates data.",
             "nowwhat": "Learning a CPU Instruction Set, even if it is a \"toy\" instruction set, is beneficiary to my career.",
             "repository": "https://w3.cs.jmu.edu/lam2mo/cs261_2018_08/files/y86-isa.pdf",
-            "picture": "assets/y86.JPG"
+            "picture": "assets/y86.JPG",
+            "alt": "Y86 Instruction Set User Diagram."
         },
         {
             "name": "Solar",
@@ -38,7 +42,8 @@
             "sowhat": "I have learned the basics of web development. I learned HTML and CSS, the bread and butter of web development.",
             "nowwhat": "I use HTML and CSS almost every project. Obvioulsy this page uses it, but I use these skills with every webpage.",
             "repository": "https://github.com/TheSalmanK/343-s23-p1",
-            "picture": "assets/solar.JPG"
+            "picture": "assets/solar.JPG",
+            "alt": "Solar's logo and main page."
         }
     ]
 }
