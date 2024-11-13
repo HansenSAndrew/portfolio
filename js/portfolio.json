@@ -34,6 +34,45 @@
             "repository": "https://github.com/TheSalmanK/343-s23-p1",
             "picture": "assets/solar.JPG",
             "alt": "Solar's logo and main page."
+        },
+        {
+            "name": "Calorie Calculator",
+            "description": "My introduction to the agile workflow. A team of 5, including myself, made an application used to track calories for a user's recipe. I learned many crucial skills including version control, working as a team, and creating UI/UX. This was created in Java and deployed as a JAR file. Unfortunately, I can not link the repository because of academic integrity. I have linked my professor's webpage.",
+            "repository": "https://users.cs.jmu.edu/bernstdh/Web/",
+            "picture": "assets/CalorieCalculator.png",
+            "alt": "Screenshot of the Calorie Calculator user interface."
+        }
+    ],
+    "papers": [
+        {
+            "name": "FooDrive",
+            "description": "FooDrive is an imaginary application that streamlines Food Donation. We were mainly focused on the application's User Experience (UX). This paper has taught me the intricacies of planning UI/UX and how to implement them properly. In the documentation, there is a Figma link to our product. Figma is a tool I use quite frequently for user experience, especially with video games and webpages.",
+            "repository": "/assets/G4.pdf",
+            "picture": "assets/foodrive.png",
+            "alt": "Picture of FooDrive logo."
+        },
+        {
+            "name": "Reflection on Ethics in Computer Science",
+            "description": "In my computer ethics course, we wrote a final reflection to our personal views. I describe my thoughts on the Internet; specifically the freedom of the Internet. There have been many topical incidents that have changed my mind on the subject. This is a hot topic issue with software because of piracy, AI regulations, and child protection.",
+            "repository": "assets/ClosingReflection.pdf",
+            "picture": "assets/Computer-ethics.jpg",
+            "alt": "A doodle of two monitors. They combined to spell out ethics."
+        }
+    ],
+    "certifications": [
+        {
+            "name": "CompTIA A+ Certification",
+            "description": "This is a certification for computer hardware and software. This taught me basic computer repair, networking, and UNIX. I used these skills to work as a computer repairman before working in my field. Although this does not apply to my major, I believe this has helped me in the long run.",
+            "repository": "assets/CompTIA-A+.pdf",
+            "picture": "assets/a-logo.jpg",
+            "alt": "CompTIA A+ Logo."
+        },
+        {
+            "name": "CompTIA Server+ Certification",
+            "description": "I am certified in server hardware and software. This has helped me in my previously mentioned computer repairman job. However, it has also helped me with learning network architecture. It taught me skills like remoting into servers, redundant precautions, and troubleshooting.",
+            "repository": "assets/CompTIA-Server+.pdf",
+            "picture": "assets/server-logo.png",
+            "alt": "CompTIA Server+ Logo."
         }
     ]
 }

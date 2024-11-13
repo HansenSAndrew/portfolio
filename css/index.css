@@ -137,7 +137,7 @@ div.Link {
 
 /* Javascript assets */
 
-div.Projects {
+div.Projects, div.Papers, div.Certifications {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -151,7 +151,7 @@ div.Card {
   width: 40%;
   margin: 3rem;
   padding: 2rem;
-  padding-bottom: 10rem;
+  padding-bottom: 8rem;
 
   border: 2px solid;
   background-color: #e7dde3;
