@@ -5,42 +5,74 @@
             "description": "A web application that is used to track previous versions of playlists. One could revert a playlist from a previous version. This was my first project with Django, Postgres, and React. My team and I created a dynamic website that had an intricate backend with an elegant frontend. These tools are most haves for web development. Using a SQL language, like Postgres, is incredibly useful for a dynamic website.",
             "repository": "https://github.com/347S24/347-final-project-team-23",
             "picture": "assets/spotitrack.png",
-            "alt": "Spotitrack's user interface."
+            "alt": "Spotitrack's user interface.",
+            "tags": [
+                "Django",
+                "React",
+                "Postgres",
+                "Node.js",
+                "Python"
+            ]
         },
         {
             "name": "VR Western Shootout",
             "description": "Created in the Unity Engine, this is was my first completed video game. This was my first time learning C#. I learned how to work in the Unity Engine with colleagues. We used Git for version control with an agile workflow. I have a love for working in the Unity Engine, and I am currently working on another video game using the same engine!",
             "repository": "https://github.com/Zach-Kiser/Western-Shootout-Game",
             "picture": "assets/cowboy.gif",
-            "alt": "A gif of the gameplay of VR Western Shootout."
+            "alt": "A gif of the gameplay of VR Western Shootout.",
+            "tags": [
+                "Unity",
+                "C#",
+                "Agile Workflow"
+            ]
         },
         {
             "name": "Based on Books",
             "description": "A web application that returns media that is based off books. I learned how to access and use APIs and Databases. This was also an introduction to Javascript. As much as I hate Javascript, it is a useful tool for static webpages. With these skills, I am more efficent at creating webpages. These assets have helped me create this webpage!",
             "repository": "https://github.com/HansenSAndrew/Project-3",
             "picture": "assets/basedonbooks.JPG",
-            "alt": "Based on Books' search bar and filter user interface."
+            "alt": "Based on Books' search bar and filter user interface.",
+            "tags": [
+                "HTML & CSS",
+                "JavaScript",
+                "API"
+            ]
         },
         {
             "name": "Y86 Simulator",
             "description": "A systems project, this is used to simulate a Y86 instruction set. Unfortunately, I cannot share this repository because of academic honesty. But, this project gave me an appreciation for C and Assembly. It also gave me a deeper understanding on how computer hardware manipulates data. Learning a CPU Instruction Set, even if it is a \"toy\" instruction set, is beneficiary to my career.",
             "repository": "https://w3.cs.jmu.edu/lam2mo/cs261_2018_08/files/y86-isa.pdf",
             "picture": "assets/y86.JPG",
-            "alt": "Y86 Instruction Set User Diagram."
+            "alt": "Y86 Instruction Set User Diagram.",
+            "tags": [
+                "C",
+                "Assembly Code",
+                "Instruction Set",
+                "Systems"
+            ]
         },
         {
             "name": "Solar",
             "description": "A static, \"dummy\" website created by a colleague and I. It does not have any purpose but instruction. I have learned the basics of web development. I learned HTML and CSS, the bread and butter of web development. I use HTML and CSS in almost every project. Obvioulsy this page uses it, but I use these skills with every webpage.",
             "repository": "https://github.com/TheSalmanK/343-s23-p1",
             "picture": "assets/solar.JPG",
-            "alt": "Solar's logo and main page."
+            "alt": "Solar's logo and main page.",
+            "tags": [
+                "HTML & CSS",
+                "UI/UX"
+            ]
         },
         {
             "name": "Calorie Calculator",
             "description": "My introduction to the agile workflow. A team of 5, including myself, made an application used to track calories for a user's recipe. I learned many crucial skills including version control, working as a team, and creating UI/UX. This was created in Java and deployed as a JAR file. Unfortunately, I can not link the repository because of academic integrity. I have linked my professor's webpage.",
             "repository": "https://users.cs.jmu.edu/bernstdh/Web/",
             "picture": "assets/CalorieCalculator.png",
-            "alt": "Screenshot of the Calorie Calculator user interface."
+            "alt": "Screenshot of the Calorie Calculator user interface.",
+            "tags": [
+                "Java",
+                "UI/UX",
+                "Agile Workflow"
+            ]
         }
     ],
     "papers": [
@@ -49,14 +81,22 @@
             "description": "FooDrive is an imaginary application that streamlines Food Donation. We were mainly focused on the application's User Experience (UX). This paper has taught me the intricacies of planning UI/UX and how to implement them properly. In the documentation, there is a Figma link to our product. Figma is a tool I use quite frequently for user experience, especially with video games and webpages.",
             "repository": "/assets/G4.pdf",
             "picture": "assets/foodrive.png",
-            "alt": "Picture of FooDrive logo."
+            "alt": "Picture of FooDrive logo.",
+            "tags": [
+                "UI/UX",
+                "Figma"
+            ]
         },
         {
             "name": "Reflection on Ethics in Computer Science",
             "description": "In my computer ethics course, we wrote a final reflection to our personal views. I describe my thoughts on the Internet; specifically the freedom of the Internet. There have been many topical incidents that have changed my mind on the subject. This is a hot topic issue with software because of piracy, AI regulations, and child protection.",
             "repository": "assets/ClosingReflection.pdf",
             "picture": "assets/Computer-ethics.jpg",
-            "alt": "A doodle of two monitors. They combined to spell out ethics."
+            "alt": "A doodle of two monitors. They combined to spell out ethics.",
+            "tags": [
+                "Ethics & Philosophy",
+                "Internet"
+            ]
         }
     ],
     "certifications": [
@@ -65,14 +105,24 @@
             "description": "This is a certification for computer hardware and software. This taught me basic computer repair, networking, and UNIX. I used these skills to work as a computer repairman before working in my field. Although this does not apply to my major, I believe this has helped me in the long run.",
             "repository": "assets/CompTIA-A+.pdf",
             "picture": "assets/a-logo.jpg",
-            "alt": "CompTIA A+ Logo."
+            "alt": "CompTIA A+ Logo.",
+            "tags": [
+                "Technological Literacy",
+                "Computer Repair",
+                "Systems"
+            ]
         },
         {
             "name": "CompTIA Server+ Certification",
             "description": "I am certified in server hardware and software. This has helped me in my previously mentioned computer repairman job. However, it has also helped me with learning network architecture. It taught me skills like remoting into servers, redundant precautions, and troubleshooting.",
             "repository": "assets/CompTIA-Server+.pdf",
             "picture": "assets/server-logo.png",
-            "alt": "CompTIA Server+ Logo."
+            "alt": "CompTIA Server+ Logo.",
+            "tags": [
+                "Technological Literacy",
+                "Server Repair",
+                "Networking"
+            ]
         }
     ]
 }

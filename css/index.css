@@ -157,7 +157,8 @@ div.Certifications {
 }
 
 div.Card {
-  display: inline-block;
+  display: flex;
+  flex-direction: column;
   z-index: 3;
 
   width: 40%;
@@ -172,7 +173,7 @@ div.Card {
   span {
     display: block;
     width: 100%;
-    height: 12rem;
+    height: 16rem;
   }
 
   img {
@@ -200,8 +201,25 @@ div.Card {
   h1 {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   }
+
+  div.tags {
+    display: flex;
+    list-style-type: none;
+    flex-wrap: wrap;
+
+    li {
+      font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+      font-weight: bold;
+      font-size: larger;
+      padding: 0.5rem;
+      border: 2px solid black;
+      border-radius: 8px;
+      background-color: #DACCE6;
+    }
+  }
 }
 
+/* Change Img Centerpiece depending on viewport */
 @media screen and (max-width: 1400px) {
   div.centerpiece>img {
     margin: none;
@@ -209,7 +227,7 @@ div.Card {
   }
 }
 
-@media screen and (max-width: 1300px) and (min-width:950px) {
+@media screen and (max-width: 1300px) and (min-width:1100px) {
   div.centerpiece {
     flex-direction: column-reverse;
     width: 50%;
@@ -233,20 +251,22 @@ div.Card {
 
 
 /* If viewport is small, the 'cards' change length */
-@media screen and (max-width: 1250px) {
+@media screen and (max-width: 1500px) {
   div.Card {
     padding-bottom: 12rem;
-
-    span {
-      height: 20rem;
-    }
   }
 }
 
-@media screen and (max-width: 950px) {
+@media screen and (max-width: 1350px) {
+  div.Card>span {
+    height: 22rem;
+  }
+}
+
+@media screen and (max-width: 1100px) {
   div.Card {
     span {
-      height: 25rem;
+      height: 30rem;
     }
   }
 
@@ -256,49 +276,13 @@ div.Card {
   }
 }
 
-@media screen and (max-width: 810px) {
+@media screen and (max-width: 1000px) {
   div.Card {
     width: 50%;
 
     span {
-      height: 15rem;
+      height: auto;
     }
-
-    padding-bottom: 30rem;
-  }
-}
-
-@media screen and (max-width: 710px) {
-  div.Card {
-    span {
-      height: 20rem;
-    }
-  }
-}
-
-@media screen and (max-width: 550px) {
-  div.Card {
-    span {
-      height: 25rem;
-    }
-
-    padding-bottom: 35rem;
-  }
-
-  div.Link {
-    img {
-      width: 10rem;
-    }
-  }
-}
-
-@media screen and (max-width: 500px) {
-  div.Card {
-    span {
-      overflow-y: scroll;
-    }
-
-    padding-bottom: 5rem;
   }
 
 }

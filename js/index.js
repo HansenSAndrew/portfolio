@@ -16,6 +16,7 @@ function populateData(json, div) {
     var repository = json.repository;
     var picture = json.picture;
     var alt = json.alt;
+    var tags = json.tags;
     var card = document.createElement('div');
     card.className = "Card";
     card.innerHTML = `
@@ -27,8 +28,16 @@ function populateData(json, div) {
             </a>
         </h1>
         <p>${description}</p>
+        <div class="tags"></div>
     </span>
     `;
+    // Loop to add tags to the Card
+    const tagdiv = card.getElementsByClassName('tags');
+    for (var i in tags) {
+        const tag = document.createElement('li');
+        tag.innerHTML = tags[i];
+        tagdiv[0].appendChild(tag);
+    }
     div.appendChild(card);
 }
 
@@ -41,8 +50,7 @@ function createSectionHeader(text) {
 }
 
 // Function that creates the div for "cards"
-function createDivCardSection(text)
-{
+function createDivCardSection(text) {
     const div = document.createElement('div');
     div.className = text;
     body.appendChild(div);
@@ -52,8 +60,7 @@ function createDivCardSection(text)
 const body = document.body;
 
 // Loop that creates cards
-for (var i in data)
-{
+for (var i in data) {
     var text = i;
     text = text.charAt(0).toUpperCase() + text.slice(1);
     createSectionHeader(text);
