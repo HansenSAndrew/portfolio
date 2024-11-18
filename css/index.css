@@ -42,34 +42,44 @@ body {
 div.centerpiece {
   z-index: 7;
   position: relative;
-
-
   margin: auto;
   margin-top: 5rem;
-
-  width: 60%;
+  width: 70%;
   padding: 2rem;
   border: 2px solid;
   background-color: #e7dde3;
   border-radius: 10px;
+
+  display: flex;
 }
 
-div.centerpiece>h1 {
-  font-size: xxx-large;
-  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+div.centerpiece>span {
+  h1 {
+    font-size: xxx-large;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  }
+
+  h2 {
+    font-size: xx-large;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  }
+
+  p {
+    width: 80%;
+    font-size: x-large;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    line-height: 1.5;
+  }
 }
 
-div.centerpiece>h2 {
-  font-size: xx-large;
-  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+div.centerpiece>img {
+  border: 2px solid;
+  border-radius: 10px;
+  margin-left: 4rem;
+  width: 40%;
 }
 
-div.centerpiece>p {
-  width: 80%;
-  font-size: x-large;
-  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-  line-height: 1.5;
-}
 
 span.JMU {
   color: #CBB677;
@@ -137,7 +147,9 @@ div.Link {
 
 /* Javascript assets */
 
-div.Projects, div.Papers, div.Certifications {
+div.Projects,
+div.Papers,
+div.Certifications {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -190,10 +202,41 @@ div.Card {
   }
 }
 
+@media screen and (max-width: 1400px) {
+  div.centerpiece>img {
+    margin: none;
+    width: 35%;
+  }
+}
+
+@media screen and (max-width: 1300px) and (min-width:950px) {
+  div.centerpiece {
+    flex-direction: column-reverse;
+    width: 50%;
+    margin: auto;
+    align-self: center;
+    justify-content: center;
+
+    img {
+      width: 70%;
+    }
+
+    span {
+      text-align: center;
+    }
+
+    span>p {
+      display: inline;
+    }
+  }
+}
+
+
 /* If viewport is small, the 'cards' change length */
 @media screen and (max-width: 1250px) {
   div.Card {
     padding-bottom: 12rem;
+
     span {
       height: 20rem;
     }
@@ -206,6 +249,11 @@ div.Card {
       height: 25rem;
     }
   }
+
+  div.centerpiece>img {
+    visibility: hidden;
+    display: none;
+  }
 }
 
 @media screen and (max-width: 810px) {
@@ -215,6 +263,7 @@ div.Card {
     span {
       height: 15rem;
     }
+
     padding-bottom: 30rem;
   }
 }
@@ -232,6 +281,7 @@ div.Card {
     span {
       height: 25rem;
     }
+
     padding-bottom: 35rem;
   }
 
@@ -247,6 +297,7 @@ div.Card {
     span {
       overflow-y: scroll;
     }
+
     padding-bottom: 5rem;
   }
 
